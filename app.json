@@ -1,0 +1,32 @@
+{
+  "name": "SASA-X-MD",
+  "description": "Javascript WhatsApp bot made by Sasanka Chamuth Fernando",
+  "logo": "https://i.ibb.co/DPd51BK7/2c47d62ecc68.jpg",
+  "keywords": ["SASA-XMD"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "WRIUSZTC#wabviGv5-MgQguM-MdI2QXYbATmf372Pow37bSEb9sY",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "SASAXMD",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "SASA X MD IS ALIVE NOW",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
+
